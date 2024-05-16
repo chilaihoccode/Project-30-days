@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz-wrapper">
+        <div class="quiz-header">
+            <div class="quiz-timer">
+                <span class="icon-clock">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  </span>
+                <div class="quiz-test-time">
+                    <p class="title">Time renderning</p>
+                    <span id="countdown">15:00:00</span>
+                </div>
+            </div>
+            <button class="btn submit medium">Submit</button>
+        </div>
+        <div class="container-quiz-content">
+            <div class="quiz-question">
+                <span class="title title-question">Question 1 of 10</span>
+                <p class="question-text">which of the following asnscasvc ... ?</p>
+                <div class="div-answer">
+                    <div class="btn outline  large">A</div>
+                    <div class="btn outline  large">B</div>
+                    <div class="btn outline large">C</div>
+                    <div class="btn outline  large">D</div>
+                </div>
+            </div>
+            <div class="quiz-complete">
+                <svg>
+                    <circle r="50"></circle>
+                    <circle r="50" id="progess"></circle>
+                </svg>
+                <p class="progess-text">9/10</p>
+            </div>
+        </div>
+        <div class="footer-quiz">
+            <div class="btn outline medium prev">Prev</div>
+            <div class="quiz-lists">
+
+                <!-- <div class="btn outline small">1</div>
+                <div class="btn outline small">2</div>
+                <div class="btn outline small">3</div>
+                <div class="btn outline small">4</div>
+                <div class="btn outline small">5</div>
+                <div class="btn outline small">6</div>
+                <div class="btn outline small">7</div>
+                <div class="btn outline small">8</div>
+                <div class="btn outline small">9</div>
+                <div class="btn outline small">10</div> -->
+            </div>
+            <div class="btn outline medium next">Next</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
